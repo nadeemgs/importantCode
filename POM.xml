@@ -1,6 +1,8 @@
              
-             <!-- Add below to pom file to exclude any file from the resourse driectory, alternatively you can use include to include specific pattren >
-              <resource>
+             <!-- Add below to pom file to exclude any file from the resourse driectory, alternatively you can use include to include specific pattren -->
+        
+        <resources>
+            <resource>
                 <directory>${basedir}/src/main/java/com/yemensoft/tools/login</directory>
                 <targetPath>${basedir}/target/classes/com/yemensoft/tools/login</targetPath>
                 <filtering>true</filtering>
@@ -8,3 +10,4 @@
                     <exclude>*.java</exclude>
                 </excludes>
             </resource>
+        </resources>  
